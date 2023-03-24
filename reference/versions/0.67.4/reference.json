@@ -701,8 +701,8 @@
                         "point"
                     ]
                 },
-                "clusters": {
-                    "type": "number"
+                "z_column": {
+                    "type": "string"
                 }
             }
         },
