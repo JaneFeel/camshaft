@@ -701,7 +701,7 @@
                         "point"
                     ]
                 },
-                "z_column": {
+                "z_col": {
                     "type": "string"
                 }
             }
