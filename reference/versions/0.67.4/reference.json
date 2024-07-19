@@ -706,6 +706,19 @@
                 }
             }
         },
+        "static-curve": {
+            "params": {
+                "source": {
+                    "type": "node",
+                    "geometry": [
+                        "point"
+                    ]
+                },
+                "column": {
+                    "type": "string"
+                }
+            }
+        },
         "intersection": {
             "params": {
                 "source": {
