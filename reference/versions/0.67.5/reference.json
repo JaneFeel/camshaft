@@ -1,5 +1,5 @@
 {
-    "version": "0.67.4",
+    "version": "0.67.5",
     "analyses": {
         "aggregate-intersection": {
             "params": {
@@ -1147,6 +1147,31 @@
                     "type": "string",
                     "optional": true,
                     "default-value": "cartodb_id"
+                }
+            }
+        },
+        "static-curve": {
+            "params": {
+                "source": {
+                    "type": "node",
+                    "geometry": [
+                        "point"
+                    ]
+                },
+                "src_lon": {
+                    "type": "string"
+                },
+                "src_lat": {
+                    "type": "string"
+                },
+                "dst_lon": {
+                    "type": "string"
+                },
+                "dst_lat": {
+                    "type": "string"
+                },
+                "distance": {
+                    "type": "number"
                 }
             }
         },
